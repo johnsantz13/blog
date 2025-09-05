@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo {
+    width: 165px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#social {
+    float: right;
+    margin-top: 40px;
+}
+
+#social img {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+#menu {
+    float: left;
+    margin-top: 93px;
+    width: 453px;
+
+}
+
+#menu a:hover {
+    color: darkgreen;
+}
+
+#menu ul {
+    list-style: none;
+    background: linear-gradient(to bottom, #ddd, #666);
+}
+
+#menu li {
+    height: 57px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border-right: solid 1px rgb(102, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+body {
+    margin: auto;
+    background: url(imagens/Marvel\ 10\ anos.jpg)repeat-x;
+    width: 1150px;
+}
+
+#cab img {
+    float: left;
+}
+
+.fix {
+    clear: both;
+}
+
+#cxlateral img {
+    width: 190px;
+    border-radius: 10px;
+}
+
+#cxlateral {
+    float: right;
+    background: #ddd;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+#cxlateral h1 {
+    border-bottom: solid 1px #000;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#cxlateral h2 {
+    font-size: 12pt;
+    padding: 3px;
+}
+
+#cxlateral p {
+    font-size: 9pt;
+}
+
+#main {
+    background: #eee;
+    width: 830px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+#main h1 {
+    font-size: 30px;
+    border-bottom: solid 1px #000;
+}
+
+#main h2 {
+    font-size: 15pt;
+    border-bottom: solid 1px #000;
+    padding: 10px;
+}
+
+#main img {
+    float: left;
+    width: 250px;
+    border-radius: 15px;
+    padding-right: 10px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+footer {
+    font-style: italic;
+}
+
+#slider {
+    width: 960px;
+    height: 384px;
+    margin-top: 250px;
+}
+
+#slider img {
+    width: 960px;
+    height: 384px;
+}
+
+#b1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#b2 {
+    position: relative;
+    left: 0px;
+    top: -390px;
+}
+
+#b3 {
+    position: relative;
+    left: 0px;
+    top: -780px;
+}
+
+#contato {
+    margin-top: 260px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #000;
+    width: 700px;
+    padding: 20px;
+}
+
+#contato h1 {
+    padding: 25px;
+    color: #666;
+}
+
+#contato input {
+    border: none;
+    border-bottom: 1px solid #666;
+}
+
+#contato label {
+    font-size: 15pt;
+}
+
+.botao {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #669999;
+    border: 0px;
+    cursor: pointer;
+}
